@@ -83,26 +83,6 @@ Perceptron p_and;
 p_and.fit(x_test, y_and, 1000);
 ```
 
-## Project Structure
-
-```
-.
-├── main.cpp                 # Main program with examples
-├── makefile                 # Build configuration
-├── include/                 # Header files
-│   ├── neural_network.hpp   # Neural network class
-│   ├── perceptron.hpp       # Perceptron class
-│   ├── matrix.hpp           # Matrix operations
-│   ├── layer.hpp            # Neural network layer
-│   ├── activation_functions.hpp # Activation functions
-│   ├── loss_functions.hpp   # Loss functions
-│   ├── layer_descriptor.hpp # Layer configuration
-│   ├── train_result.hpp     # Training results
-│   └── random.hpp           # Random utilities
-├── *.csv                    # Dataset files
-└── prueba-backpropagation.ipynb # Jupyter notebook for testing
-```
-
 ## Dependencies
 
 The project uses only standard C++ libraries and no external dependencies beyond the compiler.
